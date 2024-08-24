@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <title>football</title>
+</head>
+
+<body>
+  <span class="up">Up</span>
+  <header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" id="navbar">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">football</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Dropdown
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <button id="modes" onclick="modes()" type="button" class="btn btn-secondary">light mode</button>
+              <button id="products" onclick="content()" type="button" class="btn btn-success">hide content</button>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+
+  <main id="main-section">
+    <div class="container mt-5 ">
+      <div class="cards row gap-3 justify-content-center">
+
+          <div class="cards">
+            <div class="card" style="width: 18rem;">
+              <img src="cr7.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">cr7</h5>
+                <p class="card-text"> هو لاعب برتغالي قام بتحقيق جميع الطولات متبقي له كاس العالم فقط و لعب في الدوريات
+                  الانجليزي-الاسباني-الايطالي-السعودي</p>
+                <a href="#" class="btn btn-primary">more information</a>
+              </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+              <img src="ramos.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Ramos</h5>
+                <p class="card-text">هو لاعب اسباني يلعب كقلب دفاع و قد لعب ظهير ايمن ايضا و هو احد افضل المدافعين في
+                  التاريخ ان لم يكن الافضل</p>
+                <a href="#" class="btn btn-primary">more information</a>
+              </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+              <img src="messi.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">messi</h5>
+                <p class="card-text"> لاعب كرة قدم أرجنتيني يلعب مهاجمًا و‌قائدًا لنادي إنتر ميامي الذي ينافس في دوري
+                  النخبة الأمريكي و‌منتخب الأرجنتين. يعتبره الكثيرون أحد أعظم اللاعبين في تاريخ كرة القدم، وقد فاز ميسي
+                  بثماني جوائز من الكرة الذهبية، وهو صاحب الرقم القياسي بستة أحذية ذهبية أوروبية. ميسي هو اللاعب الأكثر
+                  تتويجًا في تاريخ كرة القدم الاحترافية، برصيد 45 لقبًا. قضى معظم مسيرته الاحترافية مع برشلونة، حيث فاز
+                  بـ34 لقبًا مع النادي</p>
+                <a href="#" class="btn btn-primary">more information</a>
+              </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+              <img src="benz.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Benzema</h5>
+                <p class="card-text">لاعب كرة قدم فرنسي مُحترف، يلعب مهاجمًا وقائدًا مع نادي الإتحاد في دوري المحترفين
+                  السعودي. يشتهر بنزيما بقدراته الهوائية، ومعدل العمل العالي لديه، وصناعة الألعاب، وحسن الإنهاء. يُعتبر
+                  بنزيما أحد أفضل المهاجمين في جيله</p>
+                <a href="#" class="btn btn-primary">more information</a>
+              </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+              <img src="kane.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">kane</h5>
+                <p class="card-text"> هو لاعب كرة قدم إنجليزي يلعب مهاجمًا لنادي بايرن ميونخ في الدوري الألماني والمنتخب
+                  الإنجليزي. يُعتبر كين أحد أفضل المهاجمين في العالم، وهو معروف بسجله التهديفي الغزير وقدرته على ربط
+                  اللعبو لم يحقق اي بطولة في تاريخه</p>
+                <a href="#" class="btn btn-primary">more information</a>
+              </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+              <img src="de breun.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">KDB</h5>
+                <p class="card-text">هو لاعب كرة قدم بلجيكي يلعب في مركز الوسط مع نادي مانشستر سيتي الإنجليزي والمنتخب
+                  البلجيكي. أسلوب لعبه جعل العديد من وسائل الإعلام، المدربين، وزملائه يصنفونه كأحد أفضل لاعبي أوروبا،
+                  وكثيرا ما تم وصفه كـ«لاعب كرة قدم كامل».</p>
+                <a href="#" class="btn btn-primary">more information</a>
+              </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+              <img src="foden.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Foden</h5>
+                <p class="card-text">هو لاعب كرة قدم إنجليزي، يلعب كلاعب وسط نادي مانشستر سيتي في الدوري الإنجليزي
+                  الممتاز ومنتخب إنجلترا لكرة القدم.
+
+                  سطع نجم فودين في كرة القدم الاحترافية في عام 2017 عندما فاز بجائزة الكرة الذهبية في كأس العالم تحت 17
+                  سنة بعد بطولة إنجلترا الناجحة في كأس العالم تحت 17 سنة، شارك لأول مرة مع السيتي خلال نفس العام وفي
+                  ديسمبر حصل على جائزة شخصية العام الرياضية الشابة من بي بي سي.</p>
+                <a href="#" class="btn btn-primary">more information</a>
+              </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+              <img src="belli.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Bellingham</h5>
+                <p class="card-text"> هو لاعب كرة قدم إنجليزي يلعب في مركز الوسط مع ريال مدريد الإسباني ومنتخب إنجلترا.
+                  يُعتبر أحد أفضل اللاعبين الشباب في العالم، ويشتهر بقدراته الفنية، ورؤيته الثاقبة، وإنهاءه المميز. في
+                  عام 2023، فاز بجائزتين رئيسيتين لأفضل لاعبي كرة القدم تحت سن 21: جائزة الفتى الذهبي، للاعبين الذين
+                  يلعبون في أوروبا خلال العام الماضي، وجائزة كوبا لأفضل لاعب في العالم خلال الموسم السابق</p>
+                <a href="#" class="btn btn-primary">more information</a>
+              </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+              <img src="modric.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">modric</h5>
+                <p class="card-text">هو لاعب كرة قدم كرواتي يلعب في مركز الوسط مع نادي ريال مدريد في الدوري الإسباني
+                  وقائد المنتخب الكرواتي. يلعب مودريتش باعتباره لاعب خط وسط مركزي، ولكن يمكنه أيضًا أن يلعب باعتباره
+                  لاعب خط وسط هجومي أو دفاعي. يُنظر إليه على نطاق واسع على أنه أحد أفضل لاعبي خط الوسط في جيله، وأعظم
+                  لاعب كرة قدم كرواتي عبر التاريخ، كما حصل لوكا على جائزة أفضل لاعب في العالم في سبتمبر 2018.و عمره 38
+                  سنة</p>
+                <a href="#" class="btn btn-primary">more information</a>
+              </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+              <img src="mbappe.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">mbappe</h5>
+                <p class="card-text">هو لاعب كرة قدم فرنسي يلعب في مركز الهجوم مع نادي ريال مدريد في الدوري الإسباني
+                  وقائد المنتخب الفرنسي. يُعتبر أحد أفضل اللاعبين في العالم، وهو معروف بدقته في الإنهاء، والمراوغة،
+                  والقوة، والسرعة العالية.</p>
+                <a href="#" class="btn btn-primary">more information</a>
+              </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+              <img src="mo.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Mo salah</h5>
+                <p class="card-text">هو لاعب كرة قدم مصري، يلعب في مركز الجناح الأيمن مع نادي ليفربول في الدوري
+                  الإنجليزي الممتاز ومنتخب مصر. يُعد أحد أبرز اللاعبين العرب والأفارقة، حيث حصد العديد من الجوائز أبرزها
+                  جائزة أفضل لاعب في إنجلترا 2018، جائزة هدف الموسم في الدوري الإنجليزي الممتاز لموسم 2017–18، وجائزة
+                  أفضل لاعب أفريقي لعامي 2017 و2018، جائزة أفضل لاعب أفريقي بواسطة البي بي سي لعامي 2017 و 2018، وأفضل
+                  لاعب في الدوري الإنجليزي لعام 2018، وجائزة الحذاء الذهبي في الدوري الإنجليزي الممتاز (هداف الدوري
+                  الإنجليزي الممتاز) أعوام 2018، 2019 و2022. اختير من قبل مجلة تايم الأمريكية في عام 2019 ضمن أكثر 100
+                  شخصية تأثيرًا في العالم</p>
+                <a href="#" class="btn btn-primary">more information</a>
+              </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+              <img src="abutrika.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Mohamed Aboutrika</h5>
+                <p class="card-text">لاعب كرة قدم دولي مصري سابق، كان يلعب في مركز خط وسط مهاجم ومركز المهاجم الثاني.
+                  يتميز بكونه لاعب صانع ألعاب ويساهم في الهجوم وإحراز الأهداف، بالإضافة إلى اللمسات السحرية ومهارات
+                  المراوغة والاختراق، حيث شُبِّهَ أسلوب لعبه باللاعب الفرنسي الشهير زين الدين زيدان. بدأ حياته الكروية
+                  باللعب مع نادي الترسانة ناشئًا ثم انتقل إلى الفريق الأول للنادي واستطاع الصعود به إلى الدوري الممتاز
+                  المصري ولعب معهم 4 مواسم، ثم انتقل إلى النادي الأهلي واستطاع إحراز سلسلة من البطولات والإنجازات
+                  المتتالية محلياً وعالمياً، أبرزها برونزية كأس العالم للأندية عام 2006 حيث حقق لقب هدّاف البطولة وقتها،
+                  بالإضافة إلى 5 بطولات دوري أبطال إفريقيا أعوام: 2005، 2006، 2008، 2012، 2013، و4 كأس السوبر الإفريقي،
+                  كما أحرز أيضاً 7 بطولات دوري و3 كؤوس و4 كؤوس سوبر محلية مع النادي الأهلي. وفي عام 2012 انتقل إلى بني
+                  ياس على سبيل الإعارة حيث أحرز معهم بطولة الخليج للأندية لكرة القدم ثم عاد مرة أخرى إلى الأهلي عام 2013
+                  واستطاع إحراز بطولة دوري أبطال إفريقيا 2013 للمرة الخامسة له مع الأهلي، وبعد انتهاء البطولة أعلن أن
+                  بطولة كأس العالم للأندية ستكون آخر المطاف في عالم كرة القدم و افضل داعمي القضية الفلسطينية و في الاخر
+                  يقوله عليه ارهابي</p>
+                <a href="#" class="btn btn-primary">more information</a>
+              </div>
+            </div>
+          </div>
+
+
+
+
+
+
+
+          <form>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="form-group form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+
+
+
+
+
+
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+          <script src="main.js"></script>
+</body>
+
+</html>
